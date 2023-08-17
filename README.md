@@ -1,12 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## Codeanywhere Template Instructions
+# Cherry Leaves Mildew Detection
 
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
-
-You can safely delete the Codeanywhere Template Instructions section of this README.md file,  and modify the remaining paragraphs for your own project. Please do read the Codeanywhere Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use. 
 
 ## How to use this repo
 
@@ -48,6 +42,12 @@ To log into the Heroku toolbelt CLI:
 5. Paste in your API key when asked
 
 You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+
+## Useful Learning Links about this data 
+
+- https://www.rhs.org.uk/disease/powdery-mildews
+- https://en.wikipedia.org/wiki/Powdery_mildew
+- <https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/>
 
 
 ## Dataset Content
