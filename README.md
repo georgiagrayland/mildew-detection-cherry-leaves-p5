@@ -17,9 +17,9 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ## Useful Learning Links about this data 
 
-- https://www.rhs.org.uk/disease/powdery-mildews
-- https://en.wikipedia.org/wiki/Powdery_mildew
-- <https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/>
+- [WSU Page on Cherry Powdery Mildew](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/)
+- [Royal Horticultrual Society Page on Powdery Mildew plant Fungi](https://www.rhs.org.uk/disease/powdery-mildews)
+- [Wikipedia Page on Powdery Mildew](https://en.wikipedia.org/wiki/Powdery_mildew)
 
 
 ## Dataset Content
