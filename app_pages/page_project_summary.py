@@ -10,9 +10,11 @@ def page_project_summary_body():
 
     st.header("Overview ")
     st.info(
-        f"Cherries, and their leaves, are a plant product used throughout the world."
-        f"They are consumed directly, and perhaps more importantly, a vital ingredient in many foods today"
-        f"Countries and regions rely on the import and export of this plant, therefore their healthy growth"
+        f"Cherry leaves are a plant product used throughout the world. "
+        f"They can be consumed directly, but more importantly are a vital ingredient in many products consumed today. "
+        f"They can be found in products ranging from teas, herbal remedies and supplements. "
+        f"They have great health benefits, as they are high in antioxidants, reduce sugar levels, and are effective painkillers. "
+        f"Countries and regions rely on the import and export of this plant, therefore their healthy growth "
         f"is of utmost importance to the farmers and enterprises who grow and use them."
     )
 
