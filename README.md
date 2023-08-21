@@ -3,17 +3,19 @@
 
 
 
-## Cloud IDE Reminders
+## Introduction 
 
-To log into the Heroku toolbelt CLI:
+## Dataset Content
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Business Requirements 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Hypotheses and Validation
+
+## Rationale to map the business requirments to the Data Visualisation and ML Tasks
+
+## ML Business Case 
+
+## Dashboard Design
 
 ## Useful Learning Links about this data 
 
@@ -50,9 +52,15 @@ To save time in this process, the IT team suggested an ML system that detects in
 * In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
 
 
+## Technologies Used
+  - Python & Libraries etc - what each one used for specifically 
+  - Environment for development - Codeanywhere etc 
+  - Version control - git etc 
+
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
 * Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+
 
 
 ## Unfixed Bugs
@@ -96,4 +104,6 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## Acknowledgements (optional)
-* Thank the people that provided support throughout this project.
+* Mentor - add detail
+* Peers at code institute 
+* Neil - add details 
