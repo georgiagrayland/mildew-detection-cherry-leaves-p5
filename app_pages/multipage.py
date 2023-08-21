@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 # class generates multiple streamlit pages
 class MultiPage:
 
@@ -23,3 +24,4 @@ class MultiPage:
         page = st.sidebar.radio(
             'Menu', self.pages, format_func=lambda page: page['title'])
         page['function']()
+
