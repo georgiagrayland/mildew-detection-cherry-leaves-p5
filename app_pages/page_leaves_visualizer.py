@@ -15,7 +15,7 @@ def page_leaves_visualizer_body():
     """
     st.title("Visualisation of Cherry Leaves")
 
-    st.success(
+    st.info(
         f"This page provides a visual representation of the two different "
         f"leaf types in this study: **healthy** and "
         f"**powdery mildew infected**"

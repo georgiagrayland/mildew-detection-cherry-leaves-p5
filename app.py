@@ -12,9 +12,9 @@ app = MultiPage(app_name="Mildew Detector Leaves Project")
 
 # App pages added individually to create dashboard
 app.add_page("Project Summary", page_project_summary_body)
-app.add_page("Project Hypotheses and Validation", page_project_hypothesis_body)
 app.add_page("Cherry Leaf Visualiser", page_leaves_visualizer_body)
 app.add_page("Mildew Detector", page_mildew_detector_body)
+app.add_page("Project Hypotheses and Validation", page_project_hypothesis_body)
 app.add_page("ML Performance Metrics", page_ml_performance_body)
 
 
