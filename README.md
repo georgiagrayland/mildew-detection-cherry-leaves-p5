@@ -1,13 +1,25 @@
 
 # Cherry Leaves Mildew Detection
 
+Powdery Mildew Detector is an app that can predict whether a cherry leaf is healthy or is infected
+with powdery mildew. 
+The app is capable of predicting on new image data of a given cherry leaf is healthy or infected.
+
+The app has been built using an ML model based on a supervised learning and single-label binary classification. 
+A binary classifier is been used as the output to predict a result. 
+
 [View the live project here](https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/)
 
-## Introduction 
+## Introduction
+
 
 ## Dataset Content
 
-## Business Requirements 
+* The source of the dataset is [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). For this project, fictitious user stories and business requirements where predictive analytics can be applied to a real-world workplace project or situation.
+* The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew.
+* The cherry plantation crop is one of the finest products in their portfolio. Infected cherry leaves contain powdery mildew, which is a fungal disease that affects a widerange of plants. This presents a major problem to the busiess as the disease can severely compromise the product quality and output.
+
+## Business Requirements
 
 ## Hypotheses and Validation
 
@@ -22,12 +34,6 @@
 - [WSU Page on Cherry Powdery Mildew](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/)
 - [Royal Horticultrual Society Page on Powdery Mildew plant Fungi](https://www.rhs.org.uk/disease/powdery-mildews)
 - [Wikipedia Page on Powdery Mildew](https://en.wikipedia.org/wiki/Powdery_mildew)
-
-
-## Dataset Content
-* The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace.
-* The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is concerned about supplying the market with a compromised quality product.
-
 
 
 ## Business Requirements
