@@ -73,7 +73,7 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 ## Technologies Used
 
 ### Languages
-- Python
+- [Python](https://www.python.org/)
 
 ### Data Visualisation & ML Libraries 
 - [Pandas](https://pandas.pydata.org/) - Used for data structuring and analysis.
