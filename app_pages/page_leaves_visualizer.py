@@ -29,7 +29,8 @@ def page_leaves_visualizer_body():
 
         st.image(avg_healthy, caption='Healty leaves - Average and Variability')
         st.image(avg_infected,
-                 caption='Powdery Mildew infected leaves - Average and Variability')
+                 caption=
+                'Powdery Mildew infected leaves - Average and Variability')
 
     st.warning(
         f"* A fairly significant visual difference can be observed between "
@@ -38,6 +39,11 @@ def page_leaves_visualizer_body():
         f"leaves have detectable white patches and spots on their surface. \n"
         f"* Average images of healthy leaves have a more uniform green "
         f"colour, with no detectable white areas on the leaves.")
+    st.write("---")
+
+    if st.checkbox("Image Sizes on Train Set - Scatter Plot and Averages"):
+        avg_img_size_train = plt.imread(f"outputs/{version}/image_shapes.png")
+        st.image(avg_img_size_train, caption="Image Sizes in Train set - Width Average=256, Height Average=256")
     st.write("---")
 
     if st.checkbox(

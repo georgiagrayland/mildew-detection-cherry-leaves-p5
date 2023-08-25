@@ -85,7 +85,7 @@ continuous progress of the development of the project, as well as giving issues 
 ### Languages
 - [Python](https://www.python.org/)
 
-### Data Visualisation & ML Libraries 
+### Data Analysis & Machine Learning Libraries 
 - [Pandas](https://pandas.pydata.org/) - Used for data structuring and analysis.
 - [Numpy](https://numpy.org/) - Provides mathematical functions to operate with and manipulate arrays.
 - [Matplotlib](https://matplotlib.org/) - Used for data visualisation.
@@ -95,6 +95,7 @@ continuous progress of the development of the project, as well as giving issues 
 - [Tensorflow](https://www.tensorflow.org/) - Used to process and clean the data to search for non-image files. 
 - [Keras](https://keras.io/) - Used for the Classification model, and ML pipeline. The neural learning multi-layer network was built using Keras. 
 - [Joblib](https://joblib.readthedocs.io/en/latest/) - Used for loading and saving files generated in the project. 
+* [Pillow](https://pypi.org/project/Pillow/) - Python Imaging Library used for supporting opening, saving, and manipulating different images with iss processing capabilities. 
 
 ### Version Control 
 - Git - Used as a version control for this project. 
