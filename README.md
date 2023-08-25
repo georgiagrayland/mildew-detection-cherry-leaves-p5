@@ -10,9 +10,9 @@ A binary classifier is been used as the output to predict a result.
 
 [View the live project here](https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/)
 
-## Introduction
+## Introduction??? 
 
-
+---
 ## Dataset Content
 
 * The source of the dataset is [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). For this project, fictitious user stories and business requirements where predictive analytics can be applied to a real-world workplace project or situation.
@@ -21,8 +21,9 @@ A binary classifier is been used as the output to predict a result.
 
 The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
 
-![Kaggle Screenshots]()
-![Kaggle Screenshots]()
+![Kaggle Screenshots](assets/images/kaggle-prev1.png)
+
+![Kaggle Screenshots](assets/images/kaggle-prev2.png)
 
 ## Business Requirements
 
@@ -57,8 +58,16 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 
 ## Project Methodologies
 
-- Kanban etc - insert info & screenshot & link to github project board. 
-- CRISP-DM
+- This project was developed using agile methodologies, adopting Github **Issues** and **Projects**. This was to track the 
+continuous progress of the development of the project, as well as giving issues metadata, such as work blocks, and prioritisation of features. 
+- The Project Kanban board can be found [here](https://github.com/users/georgiagrayland/projects/4)
+
+### CRISP-DM
+- The CRISP-DM method is an industry-proved method and guide to manage data mining efforts. 
+  - As a methodology, it includedsdescriptions of project phases, individidual tasks involved at each stage, and also a mapping and explanation of the links, flows, and relationships between these tasks.
+  - The CRISP-DM model provides an overview of the life cycle of data mining, And was used as a reference throughout this project to maintain workflow, task management, time management, and connecting hypothesis and data model to the business requirements. 
+#### CRISP-DM Workflow
+![CRISP-DM](assets/images/CRISP-DM-workflow.png)
 
 ## Jupyter Notebooks Process
 
@@ -70,6 +79,7 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 ## Project Testing
 - Insert test cases 
 
+---
 ## Technologies Used
 
 ### Languages
@@ -97,61 +107,47 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 - [Heroku](https://www.heroku.com/) - Used to deploy the project. 
 
 
-## Useful Learning Links about this data 
-
-- [WSU Page on Cherry Powdery Mildew](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/)
-- [Royal Horticultrual Society Page on Powdery Mildew plant Fungi](https://www.rhs.org.uk/disease/powdery-mildews)
-- [Wikipedia Page on Powdery Mildew](https://en.wikipedia.org/wiki/Powdery_mildew)
-
-
-
 ## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+* The default stack on Heroku is 22. However this stack does not support the Python version used for the development of this project, so I manually changed the Heroku stack to **20**, using the Heroku CLI. 
+* Some files were added to the .slugignore file, in order to build the app in Heroku successfully and keep in line with file size restrictions. 
 
+---
 ## Deployment
 ### Heroku
 
 * The App live link is: https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/ 
 * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* In the IDE, using the Heroku CLI, set the Heroku stack to 20. 
-* The project was deployed to Heroku using the following steps.
+  
+The project was deployed to **Heroku** using the following steps:
 
-1. Log in to Heroku and create an App
+1. Log in to Heroku and create a new App
 2. At the Deploy tab, select GitHub as the deployment method.
 3. Select your repository name and click Search. Once it is found, click Connect.
 4. Select the branch you want to deploy, then click Deploy Branch.
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file. 
+6. If the slug size is too large to build the app, then add large files not required for the app to the .slugignore file. 
 
-
-## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
-
-
+---
 ## Credits 
 
-LINK TO MALARIA DETECTOR PROJECT
-TEMPLATE used 
-Streamlit CI lessons
-Tensorflow lssons
-Wikipedia etc 
-* In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
+Learning and assistance for this project came in two categories **content and media/data**: 
+  
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- [Code Institute Malaria Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/): The Code and design for this project was taken from this Malaria Detector walkthrough project. There are only minor changes from this project to the Mildew Detector. The code in the Malaria Detector was used heavily for guidance and reference in the Jupyter Notebooks, the app pages, and the src folders of this project (including pages within these folders). The Malaria Detector project helped me to understand the concept of Machine Learning, Data Analytics, and Data Visualisation. More specifically, it aided my grasp of a real-world business driven data project, and using neural networks for a binary classification task. 
+- [Mildew Detection](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves) was utilised as the base foundation template for this project. 
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Code Institute Streamlit Lessons](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/d186ae95191f48e9a2151559c7e6f85d/fc2f9892cfa44eee9cc8bf585c21df88/4?activate_block_id=block-v1%3Acode_institute%2BCI_DA_ML%2B2021_Q4%2Btype%40vertical%2Bblock%407636b337caeb4035bd7b5568404802f6)
+- Information for the text content for the 'Context' section on the Project Summary page came from [Wikipedia](https://en.wikipedia.org/wiki/Powdery_mildew), [RHS](https://www.rhs.org.uk/disease/powdery-mildews), and the [Washington State University  Page on Cherry Powdery Mildew](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/). 
+- [valerioni/mildew-detection Github Repository](https://github.com/valerieoni/mildew-detection) was used as guidance for the readme. 
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
+- The Images dataset for this project was sourced from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
+- The UI for the app has been built using [Streamlit](https://streamlit.io/)
 
 
 
-## Acknowledgements (optional)
-* Mentor - add detail
-* Peers at code institute 
-* Neil - add details 
+## Acknowledgements
+* I would like to thank my mentor **Rohit Sharma**, for his time and expert insights provided throughout the duration of this project.  
+* **Neil MCEwan**, for helping with intial project understanding, and versioning issues with packages. 
