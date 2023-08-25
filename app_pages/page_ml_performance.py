@@ -18,6 +18,10 @@ def page_ml_performance_body():
         f"outputs/{version}/labels_distribution.png")
     st.image(labels_distribution,
              caption='Labels Distribution on Train, Validation and Test Sets')
+
+    labels_pie = plt.imread(f"outputs/{version}/labels_pie.png")
+    st.image(labels_pie,
+             caption='Overall Labels Distribution Across Sets')
     st.write("---")
 
     st.header("Model Training History")
