@@ -78,10 +78,11 @@ Three Jupyter Notebooks were created and worked through in order for 3 main stag
 2. **Data Visualisation** - This notebook included the initial mapping of image sizes. This chart can be seen in the 'Cherry Leaf Visualiser' page of the dashboard. It also included functions to plot mean and variability of images per label, and difference between average image per label. These visualisations were saved into the outputs folder, and can be seen on the dashboard visualisations page. An image montage was also created here, to iterate over images of a given label in the dashboard for the user to see. 
 3. **Data Modelling and Evaluation** - The third notebook included the data modelling process. Images were first augmented to altr existing images with rotation, shear, opacity, and rescaling, in order to train the model to make more accurate predictions on unseen data. A sequential tensorflow model was created for the pipeline, and the model was fit to the train set. Model performance (evaluation and accuracy) was also evaluated, which can be seen on the 'ML Performance Metrics' page of the dashboard. The model is **over 97% accurate**, so meets the requirements of the client. 
 
+---
 
-## Dashboard Design & App Features
+# Dashboard Design & App Features
 
-- As Streamlit was adopted as the UI for this project, all pages are automatically fully responsive across a range of screen sizes.
+As Streamlit was adopted as the UI for this project, all pages are automatically fully responsive across a range of screen sizes.
 
 ### Project Summary Page
 
