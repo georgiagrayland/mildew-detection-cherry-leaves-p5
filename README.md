@@ -62,7 +62,7 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 
 ## ML Business Case
 
-1. The business objective means this project must establish a supervised binary classification ML model, to predict with great accuracy and efficiency if a leaf is healthy or infected with powdery mildew disease.
+1. The business objective means this project must establish a supervised binary classification ML model, to predict with accuracy and efficiency if a leaf is healthy or infected with powdery mildew disease.
 2. The ML model provides a more rapid and reliable method of diagnosing leaves. Thereby saving time and money for the client, as manual detection takes around 30 minutes per tree, thus is time consuming and not scalable across the business.  
 3. The ML model can take both healthy and infected cherry leaves. It must predict with at least 97% accuracy if the given leaves are heathy or infected. This will ultimately benefit the client hugely if achieved.
 4. The employees of the client can take images taken of cherry leaves in their plantations, and upload them to the app. The app can determine whether the leaf is infected with powdery mildew or is healthy rapidly, hugely reducing time spent manually diagnosing leaves and trees. This will aid the client immensely in improving both the quality and quantity of thier output.
