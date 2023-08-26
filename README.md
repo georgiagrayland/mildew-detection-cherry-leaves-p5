@@ -5,10 +5,10 @@ Powdery Mildew Detector is an app that can predict whether a cherry leaf is heal
 with powdery mildew.
 The app is capable of predicting on new image data of a given cherry leaf is healthy or infected.
 
-The project aim is to create a **Predictive Analytics Machine Learning Tool** that can rapidly and accurately determine whteher an uploaded image of a cherry leaf is a healthy leaf, or one infected with the Powdery Mildew Disease, which is harmful to plants. The prupose of this is to aid the client in limiting their losses as a busienss that relies heavily on cherry leaves as a product for revenue. 
+The project aim is to create a **Predictive Analytics Machine Learning Tool** that can rapidly and accurately determine whteher an uploaded image of a cherry leaf is a healthy leaf, or one infected with the Powdery Mildew Disease, which is harmful to plants. The prupose of this is to aid the client in limiting their losses as a busienss that relies heavily on cherry leaves as a product for revenue.
 
-The app has been built using an ML model based on a supervised learning and single-label binary classification.
-The output is to predict a result, on whether a cherry leaf is healthy or infected witu powdery mildew.
+The app has been designed using an ML model based on a supervised learning and single-label binary classification.
+A Binary Classifer output is used to predict the outcome of data uploaded to the app. 
 
 :leaves: [View the live project here](https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/)
 
@@ -47,7 +47,7 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 
 ## Rationale to map the business requirements to the Data Visualisations and ML tasks
 
-### Business Requiment 1: Data Visualisation
+### Business Requirement 1: Data Visualisation
   
 - The client wants to display the mean and variability of healthy cherry leaf images and cherry leaves that contain powdery mildew infection, so that they can visually differentiate between the two.
 - The client wants to visually display the difference between an average healthy cherry leaf, and an average powdery mildew infected cherry leaf. This allows detection of distinguishable variations between the two. 
@@ -235,7 +235,7 @@ Finally, under the two graphs is an evaluation of the generalised performance on
 - [Tensorflow](https://www.tensorflow.org/) - Used to process and clean the data to search for non-image files. 
 - [Keras](https://keras.io/) - Used for the Classification model, and ML pipeline. The neural learning multi-layer network was built using Keras. 
 - [Joblib](https://joblib.readthedocs.io/en/latest/) - Used for loading and saving files generated in the project. 
-* [Pillow](https://pypi.org/project/Pillow/) - Python Imaging Library used for supporting opening, saving, and manipulating different images with iss processing capabilities. 
+* [Pillow](https://pypi.org/project/Pillow/) - Python Imaging Library used for supporting opening, saving, and manipulating different images with its processing capabilities. 
 
 ### Version Control 
 
@@ -244,10 +244,10 @@ Finally, under the two graphs is an evaluation of the generalised performance on
 
 ### Development & Hosting
 
-- [Jupyter Notebooks](https://jupyter.org/) - the main development source for running and executing the ML pipelines. 
+- [Jupyter Notebooks](https://jupyter.org/) - The main development source for running and executing the ML pipelines. 
 - [Codeanywhere](https://codeanywhere.com/) - Used as the workspace and development environment for this project. 
 - [Streamlit](https://streamlit.io/) - UI host for the dashboard.
-- [Heroku](https://www.heroku.com/) - Used to deploy the project. 
+- [Heroku](https://www.heroku.com/) - Used to deploy the project.
 
 
 ## Known/Unfixed Bugs
@@ -276,7 +276,7 @@ The project was deployed to **Heroku** using the following steps:
 
 ## Credits 
 
-Learning and assistance for this project came in two categories **content and media/data**: 
+Learning and assistance for this project came in two categories **content and media**:
   
 ### Content
 
@@ -289,8 +289,8 @@ Learning and assistance for this project came in two categories **content and me
 
 ### Media
 
-* The Images dataset for this project was sourced from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
-* The UI for the app has been built using [Streamlit](https://streamlit.io/)
+* The Images dataset for this project was sourced from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves).
+* The UI for the app has been built using [Streamlit](https://streamlit.io/).
 
 ---
 
