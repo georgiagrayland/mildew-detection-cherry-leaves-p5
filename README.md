@@ -18,7 +18,7 @@ A binary classifier is been used as the output to predict a result.
 * The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew.
 * The cherry plantation crop is one of the finest products in their portfolio. Infected cherry leaves contain powdery mildew, which is a fungal disease that affects a widerange of plants. This presents a major problem to the busiess as the disease can severely compromise the product quality and output.
 
-The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
+The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves).
 
 ![Kaggle Screenshots](assets/images/kaggle-prev1.png)
 
@@ -59,12 +59,13 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 
 - This project was developed using agile methodologies, adopting Github **Issues** and **Projects**. This was to track the 
 continuous progress of the development of the project, as well as giving issues metadata, such as work blocks, and prioritisation of features. 
-- The Project Kanban board can be found [here](https://github.com/users/georgiagrayland/projects/4)
+- The Project Kanban board can be found [here](https://github.com/users/georgiagrayland/projects/4).
 
 ### CRISP-DM
+
 - The CRISP-DM method is an industry-proved method and guide to manage data mining efforts. 
   - As a methodology, it includedsdescriptions of project phases, individidual tasks involved at each stage, and also a mapping and explanation of the links, flows, and relationships between these tasks.
-  - The CRISP-DM model provides an overview of the life cycle of data mining, And was used as a reference throughout this project to maintain workflow, task management, time management, and connecting hypothesis and data model to the business requirements. 
+  - The CRISP-DM model provides an overview of the life cycle of data mining, And was used as a reference throughout this project to maintain workflow, task management, time management, and connecting hypothesis and data model to the business requirements.
   
 #### CRISP-DM Workflow
 
@@ -86,23 +87,27 @@ As Streamlit was adopted as the UI for this project, all pages are automatically
 
 ### Project Summary Page
 
-- This is the first page that loads upon going to the app. The user will be able to read a section on the context of the project, a Problem Statement, the Two Business requirements, and the Dataset Source, as well as a link to the Readem file. 
+- This is the first page that loads upon entering the app. The user will be able to read a section on the context of the project, the Problem Statement, the Two Business requirements, and the Dataset Source, as well as a link to the Readme file.
   
-The first section is a context box, detailing the uses of cherry leaves, powdery mildew infection, its effects on plants.
+- The first section is a context box, detailing the uses of cherry leaves, powdery mildew infection, its effects on plants.
 ![Project Summary Page](assets/images/project-summary.jpg)
 
-The section box diplays the problem statement. This entails what this project aims to achieve and the problems it will solve for the client.
+The following section diplays the problem statement. This entails what this project aims to achieve and the problems it will solve for the client.
 
 ![Problem Statement](assets/images/problem-statement.png)
 
 The last section of this page shows checkboxes where users can read the two business requirements when clicked. It also contains a button, where the users can see the link to the dataset when the button is clicked, and a direct link to the project README file.
 
 ![Business Requirements](assets/images/business-data.png)
+
+Validation of Business Requirement checkbox functionality:
 ![Business Boxes](assets/images/business-requirements.png)
+
+---
 
 ### Visualisation Page
 
-- This page was built to meet Business Requirement 1.
+- This page was built to meet **Business Requirement 1.**
 
 ![Visualisation Page](assets/images/visualiser-page.png)
 
@@ -118,7 +123,7 @@ The last section of this page shows checkboxes where users can read the two busi
 
 ### Mildew Detector Page
 
-- This page was built to meet Business Requirement 2.
+- This page was built to meet **Business Requirement 2.**
   
 This page links to the ML model that has been trained to predict whether a leaf is healthy or infected with powdery midlew, based on a binary classification model.
 
