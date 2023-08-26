@@ -23,8 +23,8 @@ def page_mildew_detector_body():
     st.write('---')
 
     st.write(
-        f"Upload images for a prediction, and click on the **Make Prediction** "
-        f"button to view the result.\n"
+        f"Upload images for a prediction, and click on the **Make Prediction**"
+        f" button to view the result.\n"
         f"Images can be downloaded from "
         f"[Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves)"
     )

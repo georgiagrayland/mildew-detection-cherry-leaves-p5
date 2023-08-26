@@ -21,7 +21,7 @@ def page_ml_performance_body():
 
     labels_pie = plt.imread(f"outputs/{version}/labels_pie.png")
     st.image(labels_pie,
-             caption='Overall Labels Distribution Across Sets')
+             caption='Overall Dataset Split')
     st.write("---")
 
     st.header("Model Training History")
