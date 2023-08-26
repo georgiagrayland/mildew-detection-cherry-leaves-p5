@@ -40,19 +40,23 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 
 ## Hypotheses and Validation
 
-1.  Cherry leaves that are infected with powdery mildew have white spots or areas on the leaf surface, or plant stems.
+1. Cherry leaves that are infected with powdery mildew have white spots or areas on the leaf surface, or plant stems.
 2. The infection of powdery mildew would gradually spread, to eventually cover the plant to have a white powdery/fuzzy appearance all over.
 3. This appearance of an infected plant should be a sufficient difference from a healthy leaf, to be able to trian an ML model to detect and predict the presence of powdery mildew on new leaf image data. This can help the client decrease time and labour costs associated with manual detection.
 4. The ML model will be able to distinush between a healthy cherry leaf, and one which has been infected with powdery mildew, with an **accuracy of at least 97%.**
 
-
 ## Rationale to map the business requirements to the Data Visualisations and ML tasks
 
 ### Business Requiment 1: Data Visualisation
+  
+- The client wants to display the mean and variability of healthy cherry leaf images and cherry leaves that contain powdery mildew infection, so that they can visually differentiate between the two. 
 
 ### Business Requirement 2: Classification of Images
 
-
+- The client requires a tool that accurately predicts whether a given cherry leaf is healthy or infected with powdery mildew disease.
+- The company needs a data processing and prediction tool that can be assimilated across the company. This will eliminate need for manual detection of the infection which requires employee time and increased personnel resources.
+- The company will save time and labour resources, as well as capital spent on these, by increasing the volume of product they can export and provide to the market. This will in turn increase their revenue and therefore provide the company with greater funds to invest in its own productivity and actvitiy.  
+- The client wants an ML model with a binary classification output, and to have the ability to generate and download a report of the results.
 
 ## ML Business Case
 * In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
