@@ -137,14 +137,14 @@ This page links to the ML model that has been trained to predict whether a leaf 
 ![Sample Single Leaf](assets/images/sample-leaf.png)
 ![Sample Leaf 2](assets/images/sample2.png)
 
-* A user can upload multiple image files at once to save time. In this instance, they will be shown all image file names, then can click 'Make Predictio'. The app will run over each image and display the results for each one individually, as seen above. 
+* A user can upload multiple image files at once to save time. In this instance, they will be shown all image file names, then can click 'Make Prediction'. The app will run over each image and display the results for each one individually, as seen above. 
 ![Multiple Upload example](assets/images/multiple-upload.png)
 
 * At the end of a prediction, there is an analysis report generated, which is available for the user to download.
 * This report displays the results of all image files uploaded in an individual instance. 
 ![Multiple Upload Report](assets/images/result-report.png)
 
-
+---
 ### Project Hypotheses and Validation Page
 
 The user can view the project Hypotheses in the first section of this page, and the validation of these in the section underneath.
