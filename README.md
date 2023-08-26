@@ -56,7 +56,7 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 ### Business Requirement 2: Classification of Images
 
 - The client requires a tool that accurately predicts whether a given cherry leaf is healthy or infected with powdery mildew disease.
-- The company needs a data processing and prediction tool that can be assimilated across the company. This will eliminate need for manual detection of the infection which requires employee time and increased personnel resources.
+- The client needs a data processing and prediction tool that can be assimilated across the company. This will eliminate need for manual detection of the infection which requires employee time and increased personnel resources.
 - The company will save time and labour resources, as well as capital spent on these, by increasing the volume of product they can export and provide to the market. This will in turn increase their revenue and therefore provide the company with greater funds to invest in its own productivity and actvitiy.  
 - The client wants an ML model with a binary classification output, and to have the ability to generate and download a report of the results.
 
