@@ -101,7 +101,7 @@ The last section of this page shows checkboxes where users can read the two busi
 
 ### Visualisation Page
 
-- Meets Business Requirement 1
+- This page was built to meet Business Requirement 1.
 
 ![Visualisation Page](assets/images/visualiser-page.png)
 
@@ -115,7 +115,9 @@ The last section of this page shows checkboxes where users can read the two busi
 
 ### Mildew Detector Page
 
-- Meets Business Requirement 2
+- This page was built to meet Business Requirement 2.
+  
+
 
 ![Mildew Detector Page](assets/images/mildew-detector-page.png)
 
@@ -126,20 +128,31 @@ The last section of this page shows checkboxes where users can read the two busi
 ![Multiple Upload example](assets/images/multiple-upload.png)
 ![Multiple Upload Report](assets/images/result-report.png)
 
+
 ### Project Hypotheses and Validation Page
+
+The user can view the project Hypotheses in the first section of this page, and the validation of these in the section underneath.
+This page is purely text, so there are no user actions to test/validate. 
 
 ![Project Hypotheses and Validation Page](assets/images/hypotheses-page.png)
 
 ![Validation Section](assets/images/hypotheses-validation.png)
 
+
+
 ### ML Performance Metrics Page
 
-- Insert explanation of page
+- On this page, the user can see the dataset split metrics, as well as the performance metrics and evaluation of the model, its training history, and loss and accuracy.
 
+The first chart to view is the labels frequency across the train, test, and validation sets, as a bar chart. 
 ![ML Metrics page](assets/images/ml-metrics-page.png)
+
+Under this, the user can see a pie chart of the overall ratio of the train, test, and validation sets across the dataset. 
 
 ![Dataset split Pie](assets/images/dataset-split.png)
 
+Further down, there are two graphs displaying the model training history. The user can see a graph representing the model training accuracy across the train and validation sets. The user can also view a graph respresentng the model loss over time. It can be ascertained through these two graphs that the model neither overfit nor underfit. and they follow normal trainig trajectories. 
+Finally, under the two graphs is an evaluation of the generaised performance on the test set. This displays a data frame showing a loss of 0.0204, and an accuracy of 0.9917 (99%).
 ![Model Training History](assets/images/model-training.png)
 ![Model Performance](assets/images/model-performance.png)
 
