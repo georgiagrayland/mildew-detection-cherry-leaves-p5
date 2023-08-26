@@ -10,8 +10,6 @@ A binary classifier is been used as the output to predict a result.
 
 [View the live project here](https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/)
 
-## Introduction??? 
-
 ---
 ## Dataset Content
 
@@ -74,10 +72,56 @@ continuous progress of the development of the project, as well as giving issues 
 ## Dashboard Design & App Features 
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
 * Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+  
+### Project Summary Page
+  
+![Project Summary Page](assets/images/project-summary.jpg)
 
+![Problem Statement](assets/images/problem-statement.png)
 
-## Project Testing
-- Insert test cases 
+![Business Requirements](assets/images/business-data.png)
+
+### Visualisation Page
+- Meets Business Requirement 1
+
+![Visualisation Page](assets/images/visualiser-page.png)
+
+![Visualisation Page Part 2](assets/images/visualisation-diff.png)
+
+![Image Sizes Scatterplot](assets/images/scatter-plot.png)
+
+![Average Differences Image](assets/images/average-difference.png)
+
+![Image Montage](assets/images/image-montage.png)
+
+### Mildew Detector Page
+- Meets Business Requirement 2
+
+![Mildew Detector Page](assets/images/mildew-detector-page.png)
+
+![Image Upload in Detector](assets/images/detector-example.png)
+
+![Sample Single Leaf](assets/images/sample-leaf.png)
+![Sample Leaf 2](assets/images/sample2.png)
+![Multiple Upload example](assets/images/multiple-upload.png)
+![Multiple Upload Report](assets/images/result-report.png)
+
+### Project Hypotheses and Validation Page
+
+![Project Hypotheses and Validation Page](assets/images/hypotheses-page.png)
+
+![Validation Section](assets/images/hypotheses-validation.png)
+
+### ML Performance Metrics Page
+
+- Insert explanation of page
+
+![ML Metrics page](assets/images/ml-metrics-page.png)
+
+![Dataset split Pie](assets/images/dataset-split.png)
+
+![Model Training History](assets/images/model-training.png)
+![Model Performance](assets/images/model-performance.png)
 
 ---
 ## Technologies Used
