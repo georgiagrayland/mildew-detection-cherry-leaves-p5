@@ -5,8 +5,10 @@ Powdery Mildew Detector is an app that can predict whether a cherry leaf is heal
 with powdery mildew.
 The app is capable of predicting on new image data of a given cherry leaf is healthy or infected.
 
+This project aim is to create a **Predictive Analytics Machine Learning Tool** that can rapidly and accurately determine whteher an uploaded image of a cherry leaf is a healthy leaf, or one infected with the Powdery Mildew Disease, which is harmful to plants. The prupose of this is to aid the client in limiting their losses as a busienss that relies heavily on cherry leaves as a product for revenue. 
+
 The app has been built using an ML model based on a supervised learning and single-label binary classification.
-A binary classifier is been used as the output to predict a result.
+The output is to predict a result, on whether a cherry leaf is healthy or infected witu powdery mildew.
 
 :leaves: [View the live project here](https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/)
 
