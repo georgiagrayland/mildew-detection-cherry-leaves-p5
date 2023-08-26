@@ -209,7 +209,7 @@ Under this, the user can see a pie chart of the overall ratio of the train, test
 
 Further down, there are two graphs displaying the model training history. The user can see a graph representing the model training accuracy across the train and validation sets.
 
-The user can also view a graph respresenting the model loss over time. It can be ascertained through these two graphs that the model neither overfit nor underfit. and they follow normal trainig trajectories. 
+The user can also view a graph respresenting the model loss over time. It can be ascertained through these two graphs that the model neither overfit nor underfit. and they follow normal training trajectories.
 
 Finally, under the two graphs is an evaluation of the generalised performance on the test set. This displays a Data Frame showing a loss of 0.0204, and an accuracy of 0.9917 (99%).
 
