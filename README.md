@@ -63,6 +63,11 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 ## ML Business Case
 * In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
 
+
+
+---
+# Project Development, Methods, and Wordlkflow
+
 ## Project Methodologies
 
 - This project was developed using agile methodologies, adopting Github **Issues** and **Projects**. This was to track the 
@@ -208,7 +213,7 @@ Finally, under the two graphs is an evaluation of the generalised performance on
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 ### Languages
 
