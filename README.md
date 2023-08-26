@@ -62,16 +62,16 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 
 ## ML Business Case
 
-1. The business objective means this project must establish a supervised binary classification ML model, to predict with accuracy and efficiency if a leaf is healthy or infected with powdery mildew disease.
-2. The ML model provides a more rapid and reliable method of diagnosing leaves. Thereby saving time and money for the client, as manual detection takes around 30 minutes per tree, thus is time consuming and not scalable across the business.  
-3. The ML model can take both healthy and infected cherry leaves. It must predict with at least 97% accuracy if the given leaves are heathy or infected. This will ultimately benefit the client hugely if achieved.
+1. The business objective means this project must devise a means to predict with accuracy and efficiency if a leaf is healthy or infected with powdery mildew disease.
+2. Manual detection of powdery mildew takes around 30 minutes per tree, thus is time consuming and not scalable across the business. The ML model provides a more rapid and reliable method of diagnosing leaves. Thereby saving time and money for the client.
+3. The ML tool can take both healthy and infected cherry leaves. It must predict with at least 97% accuracy if the given leaves are heathy or infected. This will ultimately benefit the client hugely if achieved.
 4. The employees of the client can take images taken of cherry leaves in their plantations, and upload them to the app. The app can determine whether the leaf is infected with powdery mildew or is healthy rapidly, hugely reducing time spent manually diagnosing leaves and trees. This will aid the client immensely in improving both the quality and quantity of thier output.
 5. Inputs to train the model are of a dataset of healthy and infected cherry leaves. This is so that it can learn the difference between the two types of leaves, based on repeated pattern recognition. Binary classification means two outcomes are possible, and the ML tool will display the probaility of each outcome for a given leaf.
-6. Conventional data analysis can be employed for visualisation, and to visually differentiate whether a leaf is healthy or contains powdery mildew infection.
+6. Conventional data analysis can be utilised for examination of the images, to visually differentiate whether a leaf is healthy or contains powdery mildew infection.
 
 ---
 
-# Project Development, Methods, and Workflow 
+# Project Development, Methods, and Workflow
 
 ## Project Methodologies
 
