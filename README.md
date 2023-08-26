@@ -1,5 +1,5 @@
 
-# Cherry Leaves Mildew Detection
+# Mildew Detector Cherry Leaves
 
 Powdery Mildew Detector is an app that can predict whether a cherry leaf is healthy or is infected
 with powdery mildew. 
