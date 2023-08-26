@@ -8,7 +8,7 @@ The app is capable of predicting on new image data of a given cherry leaf is hea
 The app has been built using an ML model based on a supervised learning and single-label binary classification. 
 A binary classifier is been used as the output to predict a result. 
 
-[View the live project here](https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/)
+:leaves: [View the live project here](https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/)
 
 ---
 ## Dataset Content
