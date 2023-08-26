@@ -5,7 +5,7 @@ Powdery Mildew Detector is an app that can predict whether a cherry leaf is heal
 with powdery mildew.
 The app is capable of predicting on new image data of a given cherry leaf is healthy or infected.
 
-This project aim is to create a **Predictive Analytics Machine Learning Tool** that can rapidly and accurately determine whteher an uploaded image of a cherry leaf is a healthy leaf, or one infected with the Powdery Mildew Disease, which is harmful to plants. The prupose of this is to aid the client in limiting their losses as a busienss that relies heavily on cherry leaves as a product for revenue. 
+The project aim is to create a **Predictive Analytics Machine Learning Tool** that can rapidly and accurately determine whteher an uploaded image of a cherry leaf is a healthy leaf, or one infected with the Powdery Mildew Disease, which is harmful to plants. The prupose of this is to aid the client in limiting their losses as a busienss that relies heavily on cherry leaves as a product for revenue. 
 
 The app has been built using an ML model based on a supervised learning and single-label binary classification.
 The output is to predict a result, on whether a cherry leaf is healthy or infected witu powdery mildew.
@@ -109,16 +109,32 @@ Validation of Business Requirement checkbox functionality:
 
 ### Visualisation Page
 
-- This page was built to meet **Business Requirement 1.**
+This page was built to meet **Business Requirement 1.**
 
+* The user is initially presented with a checkbox. When clicked, they will be presented with a 2x2 grid of images.
+* These images display the average and varability images for the two labels (healhy and powdery mildew). 
+* Underneath is an information box outlining observations from these images.
+* 
 ![Visualisation Page](assets/images/visualiser-page.png)
 
 ![Visualisation Page Part 2](assets/images/visualisation-diff.png)
 
+* The user can next see another checkbox. When clicked, this displays a scatterplot of the image sizes on the train set. 
+* It shows width and height in pixels on the x and y axis respectively. 
+* The caption of this plot also displays the average measurements of the train set images.
+
 ![Image Sizes Scatterplot](assets/images/scatter-plot.png)
+
+* Underneath is another checkbox. When clicked, the user will see the a row of 3 images, displaying the differences between the average image for the two labels, and a difference image. 
+* The purpose of this is to provide a clear visual representation of the difference between a healthy leaf and one infected with powdery mildew.
+* There is also an information box outlining observations and visual differences between the average images of the different labels. 
 
 ![Average Differences Image](assets/images/average-difference.png)
 
+* Lastly on this page is a checkbox for the image montage. When clicked, the user is presented with instructions ho how to create a montage. 
+* The user must select to create an image of either healthy or powdery mildew labelled cherry leaves (from the validation set).
+* Once they have chosen a label, when the 'Create Montage' button is clicked, a montage of images from the selected label is generated. 
+* The purpose of this is for the user to be able to see uniform patterns clearly across leaves of the same type, all at the same time.  
 ![Image Montage](assets/images/image-montage.png)
 
 ---
