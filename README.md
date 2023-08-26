@@ -49,7 +49,9 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 
 ### Business Requiment 1: Data Visualisation
   
-- The client wants to display the mean and variability of healthy cherry leaf images and cherry leaves that contain powdery mildew infection, so that they can visually differentiate between the two. 
+- The client wants to display the mean and variability of healthy cherry leaf images and cherry leaves that contain powdery mildew infection, so that they can visually differentiate between the two.
+- The client wants to visually display the difference between an average healthy cherry leaf, and an average powdery mildew infected cherry leaf. This allows detection of distinguishable variations between the two. 
+- The client would like an image montage to be available for healthy leaf images, and infected leaf images. This is to allow for a visual differentiation of the wtwoimage labels, and to recognise appearance patterns across images of the same label. 
 
 ### Business Requirement 2: Classification of Images
 
