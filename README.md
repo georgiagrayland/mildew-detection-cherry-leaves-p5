@@ -85,13 +85,19 @@ Three Jupyter Notebooks were created and worked through in order for 3 main stag
 
 ### Project Summary Page
 
-- Insert tests/explanation
-
+- This is the first page that loads upon going to the app. The user will be able to read a section on the context of the project, a Problem Statement, the Two Business requirements, and the Dataset Source, as well as a link to the Readem file. 
+  
+The first section is a context box, detailing the uses of cherry leaves, powdery mildew infection, its effects on plants.
 ![Project Summary Page](assets/images/project-summary.jpg)
+
+The section box diplays the problem statement. This entails what this project aims to achieve and the problems it will solve for the client.
 
 ![Problem Statement](assets/images/problem-statement.png)
 
+The last section of this page shows checkboxes where users can read the two business requirements when clicked. It also contains a button, where the users can see the link to the dataset when the button is clicked, and a direct link to the project README file.
+
 ![Business Requirements](assets/images/business-data.png)
+![Business Boxes](assets/images/business-requirements.png)
 
 ### Visualisation Page
 
