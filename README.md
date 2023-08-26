@@ -51,7 +51,7 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
   
 - The client wants to display the mean and variability of healthy cherry leaf images and cherry leaves that contain powdery mildew infection, so that they can visually differentiate between the two.
 - The client wants to visually display the difference between an average healthy cherry leaf, and an average powdery mildew infected cherry leaf. This allows detection of distinguishable variations between the two. 
-- The client would like an image montage to be available for healthy leaf images, and infected leaf images. This is to allow for a visual differentiation of the wtwoimage labels, and to recognise appearance patterns across images of the same label. 
+- The client would like an image montage to be available for healthy leaf images, and infected leaf images. This is to allow for a visual differentiation between the two image labels, and to recognise appearance patterns across images of the same label. 
 
 ### Business Requirement 2: Classification of Images
 
@@ -95,7 +95,7 @@ Three Jupyter Notebooks were created and worked through in order for 3 main stag
 
 1. **Data Collection** - In this notebook, the data was downloaded into the workspace through Kaggle. Here it was cleaned to remove any non-image files, and then split using the train, test, validation method. The data was split 70% into train, 20% in test, and 10% into validation, which can be seen on a pie chart in the dashboard 'ML Performance Metrics' page. These 3 new folders were saved directly to the inputs folder in the workspace workspace from the Jupyter Notebook.
 2. **Data Visualisation** - This notebook included the initial mapping of image sizes. This chart can be seen in the 'Cherry Leaf Visualiser' page of the dashboard. It also included functions to plot mean and variability of images per label, and difference between average image per label. These visualisations were saved into the outputs folder, and can be seen on the dashboard visualisations page. An image montage was also created here, to iterate over images of a given label in the dashboard for the user to see. 
-3. **Data Modelling and Evaluation** - The third notebook included the data modelling process. Images were first augmented to altr existing images with rotation, shear, opacity, and rescaling, in order to train the model to make more accurate predictions on unseen data. A sequential tensorflow model was created for the pipeline, and the model was fit to the train set. Model performance (evaluation and accuracy) was also evaluated, which can be seen on the 'ML Performance Metrics' page of the dashboard. The model is **over 97% accurate**, so meets the requirements of the client. 
+3. **Data Modelling and Evaluation** - The third notebook included the data modelling process. Images were first augmented to alterr existing images from the dataset with rotation, shear, opacity, and rescaling, in order to train the model to make more accurate predictions on unseen data. A sequential tensorflow model was created for the pipeline, and the model was fit to the train set. Model performance (evaluation and accuracy) was also evaluated, which can be seen on the 'ML Performance Metrics' page of the dashboard. The model is **over 97% accurate**, so meets the requirements of the client.
 
 ---
 
