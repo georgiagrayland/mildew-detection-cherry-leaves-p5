@@ -114,7 +114,7 @@ This page was built to meet **Business Requirement 1.**
 * The user is initially presented with a checkbox. When clicked, they will be presented with a 2x2 grid of images.
 * These images display the average and varability images for the two labels (healhy and powdery mildew). 
 * Underneath is an information box outlining observations from these images.
-* 
+
 ![Visualisation Page](assets/images/visualiser-page.png)
 
 ![Visualisation Page Part 2](assets/images/visualisation-diff.png)
