@@ -67,7 +67,7 @@ continuous progress of the development of the project, as well as giving issues 
 #### CRISP-DM Workflow
 ![CRISP-DM](assets/images/CRISP-DM-workflow.png)
 
-## Jupyter Notebooks Process
+## Jupyter Notebooks Workflow Process
 
 ## Dashboard Design & App Features
 
