@@ -69,12 +69,14 @@ continuous progress of the development of the project, as well as giving issues 
 
 ## Jupyter Notebooks Process
 
-## Dashboard Design & App Features 
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-* Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
-  
+## Dashboard Design & App Features
+
+- As Streamlit was adopted as the UI for this project, all pages are automatically fully responsive across a range of screen sizes.
+
 ### Project Summary Page
-  
+
+- Insert tests/explanation
+
 ![Project Summary Page](assets/images/project-summary.jpg)
 
 ![Problem Statement](assets/images/problem-statement.png)
