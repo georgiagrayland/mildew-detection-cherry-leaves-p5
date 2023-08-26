@@ -18,7 +18,7 @@ A binary classifer output is used to predict the outcome of data uploaded to the
 
 * The source of the dataset is [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). For this project, fictitious user stories and business requirements where predictive analytics can be applied to a real-world workplace project or situation.
 * The dataset contains more than 4000 images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew.
-* The cherry plantation crop is one of the finest products in their portfolio. Infected cherry leaves contain powdery mildew, which is a fungal disease that affects a widerange of plants. This presents a major problem to the busiess as the disease can severely compromise the product quality and output.
+* The cherry plantation crop is one of the finest products in their portfolio. Infected cherry leaves contain powdery mildew, which is a fungal disease that affects a wide range of plants. This presents a major problem to the busiess as the disease can severely compromise the product quality and output.
 
 The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves).
 
