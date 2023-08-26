@@ -197,4 +197,4 @@ Learning and assistance for this project came in two categories **content and me
 
 ## Acknowledgements
 * I would like to thank my mentor **Rohit Sharma**, for his time and expert insights provided throughout the duration of this project.  
-* **Neil MCEwan**, for helping with intial project understanding, and versioning issues with packages. 
+* **Neil McEwan**, for helping with intial project understanding, and versioning issues with packages. 
