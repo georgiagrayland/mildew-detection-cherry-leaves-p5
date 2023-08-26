@@ -2,15 +2,16 @@
 # Mildew Detector Cherry Leaves
 
 Powdery Mildew Detector is an app that can predict whether a cherry leaf is healthy or is infected
-with powdery mildew. 
+with powdery mildew.
 The app is capable of predicting on new image data of a given cherry leaf is healthy or infected.
 
-The app has been built using an ML model based on a supervised learning and single-label binary classification. 
-A binary classifier is been used as the output to predict a result. 
+The app has been built using an ML model based on a supervised learning and single-label binary classification.
+A binary classifier is been used as the output to predict a result.
 
 :leaves: [View the live project here](https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/)
 
 ---
+
 ## Dataset Content
 
 * The source of the dataset is [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). For this project, fictitious user stories and business requirements where predictive analytics can be applied to a real-world workplace project or situation.
@@ -47,7 +48,7 @@ The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitu
 
 ### Business Requiment 1: Data Visualisation
 
-### Business Requirement 2: Classification of Images 
+### Business Requirement 2: Classification of Images
 
 
 
@@ -64,10 +65,19 @@ continuous progress of the development of the project, as well as giving issues 
 - The CRISP-DM method is an industry-proved method and guide to manage data mining efforts. 
   - As a methodology, it includedsdescriptions of project phases, individidual tasks involved at each stage, and also a mapping and explanation of the links, flows, and relationships between these tasks.
   - The CRISP-DM model provides an overview of the life cycle of data mining, And was used as a reference throughout this project to maintain workflow, task management, time management, and connecting hypothesis and data model to the business requirements. 
+  
 #### CRISP-DM Workflow
+
 ![CRISP-DM](assets/images/CRISP-DM-workflow.png)
 
 ## Jupyter Notebooks Workflow Process
+
+Three Jupyter Notebooks were created and worked through in order for 3 main stages of the project: Data Collection, Data Visualisation, and Data Modelling and Evaluation:
+
+1. **Data Collection** - In this notebook, the data was downloaded into the workspace through Kaggle. Here it was cleaned to remove any non-image files, and then split using the train, test, validation method. The data was split 70% into train, 20% in test, and 10% into validation, which can be seen on a pie chart in the dashboard 'ML Performance Metrics' page. These 3 new folders were saved directly to the inputs folder in the workspace workspace from the Jupyter Notebook.
+2. **Data Visualisation** - This notebook included the initial mapping of image sizes. This chart can be seen in the 'Cherry Leaf Visualiser' page of the dashboard. It also included functions to plot mean and variability of images per label, and difference between average image per label. These visualisations were saved into the outputs folder, and can be seen on the dashboard visualisations page. An image montage was also created here, to iterate over images of a given label in the dashboard for the user to see. 
+3. **Data Modelling and Evaluation** - The third notebook included the data modelling process. Images were first augmented to altr existing images with rotation, shear, opacity, and rescaling, in order to train the model to make more accurate predictions on unseen data. A sequential tensorflow model was created for the pipeline, and the model was fit to the train set. Model performance (evaluation and accuracy) was also evaluated, which can be seen on the 'ML Performance Metrics' page of the dashboard. The model is **over 97% accurate**, so meets the requirements of the client. 
+
 
 ## Dashboard Design & App Features
 
@@ -84,6 +94,7 @@ continuous progress of the development of the project, as well as giving issues 
 ![Business Requirements](assets/images/business-data.png)
 
 ### Visualisation Page
+
 - Meets Business Requirement 1
 
 ![Visualisation Page](assets/images/visualiser-page.png)
@@ -97,6 +108,7 @@ continuous progress of the development of the project, as well as giving issues 
 ![Image Montage](assets/images/image-montage.png)
 
 ### Mildew Detector Page
+
 - Meets Business Requirement 2
 
 ![Mildew Detector Page](assets/images/mildew-detector-page.png)
@@ -129,9 +141,11 @@ continuous progress of the development of the project, as well as giving issues 
 ## Technologies Used
 
 ### Languages
+
 - [Python](https://www.python.org/)
 
 ### Data Analysis & Machine Learning Libraries 
+
 - [Pandas](https://pandas.pydata.org/) - Used for data structuring and analysis.
 - [Numpy](https://numpy.org/) - Provides mathematical functions to operate with and manipulate arrays.
 - [Matplotlib](https://matplotlib.org/) - Used for data visualisation.
@@ -144,22 +158,26 @@ continuous progress of the development of the project, as well as giving issues 
 * [Pillow](https://pypi.org/project/Pillow/) - Python Imaging Library used for supporting opening, saving, and manipulating different images with iss processing capabilities. 
 
 ### Version Control 
+
 - Git - Used as a version control for this project. 
 - [GitHub](https://github.com/) - The project repository stored here. 
 
 ### Development & Hosting
+
 - [Jupyter Notebooks](https://jupyter.org/) - the main development source for running and executing the ML pipelines. 
 - [Codeanywhere](https://codeanywhere.com/) - Used as the workspace and development environment for this project. 
 - [Streamlit](https://streamlit.io/) - UI host for the dashboard.
 - [Heroku](https://www.heroku.com/) - Used to deploy the project. 
 
 
-## Unfixed Bugs
+## Known/Unfixed Bugs
+
 * The default stack on Heroku is 22. However this stack does not support the Python version used for the development of this project, so I manually changed the Heroku stack to **20**, using the Heroku CLI. 
-* Some files were added to the .slugignore file, in order to build the app in Heroku successfully and keep in line with file size restrictions. 
+* Some files were added to the .slugignore file, in order to build the app in Heroku successfully and keep in line with file size restrictions.
 
 ---
 ## Deployment
+
 ### Heroku
 
 * The App live link is: https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/ 
@@ -175,26 +193,28 @@ The project was deployed to **Heroku** using the following steps:
 6. If the slug size is too large to build the app, then add large files not required for the app to the .slugignore file. 
 
 ---
+
 ## Credits 
 
 Learning and assistance for this project came in two categories **content and media/data**: 
   
-### Content 
+### Content
 
-- [Code Institute Malaria Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/): The Code and design for this project was largely taken from this Malaria Detector walkthrough project. There are only minor changes from this project to the Mildew Detector. The code in the Malaria Detector was used heavily for guidance and reference in the Jupyter Notebooks, the app pages, and the src folders of this project (including pages within these folders). The Malaria Detector project helped me to understand the concept of Machine Learning, Data Analytics, and Data Visualisation. More specifically, it aided my grasp of a real-world business driven data project, and using neural networks for a binary classification task. 
-- [Mildew Detection](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves) was utilised as the base foundation template for this project. 
-- [Streamlit Documentation](https://docs.streamlit.io/)
-- [Code Institute Streamlit Lessons](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/d186ae95191f48e9a2151559c7e6f85d/fc2f9892cfa44eee9cc8bf585c21df88/4?activate_block_id=block-v1%3Acode_institute%2BCI_DA_ML%2B2021_Q4%2Btype%40vertical%2Bblock%407636b337caeb4035bd7b5568404802f6)
-- Information for the text content for the 'Context' section on the Project Summary page came from [Wikipedia](https://en.wikipedia.org/wiki/Powdery_mildew), [RHS](https://www.rhs.org.uk/disease/powdery-mildews), and the [Washington State University  Page on Cherry Powdery Mildew](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/). 
-- [valerioni/mildew-detection Github Repository](https://github.com/valerieoni/mildew-detection) was used as guidance for the readme. 
+* [Code Institute Malaria Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/): The Code and design for this project was largely taken from this Malaria Detector walkthrough project. There are only minor changes from this project to the Mildew Detector. The code in the Malaria Detector was used heavily for guidance and reference in the Jupyter Notebooks, the app pages, and the src folders of this project (including pages within these folders). The Malaria Detector project helped me to understand the concept of Machine Learning, Data Analytics, and Data Visualisation. More specifically, it aided my grasp of a real-world business driven data project, and using neural networks for a binary classification task. 
+* [Mildew Detection](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves) was utilised as the base foundation template for this project. 
+* [Streamlit Documentation](https://docs.streamlit.io/)
+* [Code Institute Streamlit Lessons](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/d186ae95191f48e9a2151559c7e6f85d/fc2f9892cfa44eee9cc8bf585c21df88/4?activate_block_id=block-v1%3Acode_institute%2BCI_DA_ML%2B2021_Q4%2Btype%40vertical%2Bblock%407636b337caeb4035bd7b5568404802f6)
+* Information for the text content for the 'Context' section on the Project Summary page came from [Wikipedia](https://en.wikipedia.org/wiki/Powdery_mildew), [RHS](https://www.rhs.org.uk/disease/powdery-mildews), and the [Washington State University  Page on Cherry Powdery Mildew](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/). 
+* [valerioni/mildew-detection Github Repository](https://github.com/valerieoni/mildew-detection) was used as guidance for the readme.
 
 ### Media
 
-- The Images dataset for this project was sourced from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
-- The UI for the app has been built using [Streamlit](https://streamlit.io/)
+* The Images dataset for this project was sourced from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
+* The UI for the app has been built using [Streamlit](https://streamlit.io/)
 
-
+---
 
 ## Acknowledgements
+
 * I would like to thank my mentor **Rohit Sharma**, for his time and expert insights provided throughout the duration of this project.  
 * **Neil McEwan**, for helping with intial project understanding, and versioning issues with packages. 
