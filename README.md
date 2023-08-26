@@ -8,7 +8,7 @@ The app is capable of predicting on new image data of a given cherry leaf is hea
 The project aim is to create a **Predictive Analytics Machine Learning Tool** that can rapidly and accurately determine whteher an uploaded image of a cherry leaf is a healthy leaf, or one infected with the Powdery Mildew Disease, which is harmful to plants. The prupose of this is to aid the client in limiting their losses as a busienss that relies heavily on cherry leaves as a product for revenue.
 
 The app has been designed using an ML model based on a supervised learning and single-label binary classification.
-A Binary Classifer output is used to predict the outcome of data uploaded to the app. 
+A binary classifer output is used to predict the outcome of data uploaded to the app.
 
 :leaves: [View the live project here](https://mildew-detector-cherry-leaves-7ca9c643cfca.herokuapp.com/)
 
@@ -17,7 +17,7 @@ A Binary Classifer output is used to predict the outcome of data uploaded to the
 ## Dataset Content
 
 * The source of the dataset is [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). For this project, fictitious user stories and business requirements where predictive analytics can be applied to a real-world workplace project or situation.
-* The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew.
+* The dataset contains more than 4000 images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew.
 * The cherry plantation crop is one of the finest products in their portfolio. Infected cherry leaves contain powdery mildew, which is a fungal disease that affects a widerange of plants. This presents a major problem to the busiess as the disease can severely compromise the product quality and output.
 
 The full dataset can be found [here](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves).
@@ -276,12 +276,12 @@ The project was deployed to **Heroku** using the following steps:
 
 ## Credits 
 
-Learning and assistance for this project came in two categories **content and media**:
+Learning and assistance for this project came in two categories - **content and media**:
   
 ### Content
 
 * [Code Institute Malaria Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/): The Code and design for this project was largely taken from this Malaria Detector walkthrough project. There are only minor changes from this project to the Mildew Detector. The code in the Malaria Detector was used heavily for guidance and reference in the Jupyter Notebooks, the app pages, and the src folders of this project (including pages within these folders). The Malaria Detector project helped me to understand the concept of Machine Learning, Data Analytics, and Data Visualisation. More specifically, it aided my grasp of a real-world business driven data project, and using neural networks for a binary classification task. 
-* [Mildew Detection](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves) was utilised as the base foundation template for this project. 
+* [Mildew Detection](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves) was utilised as the base template for this project.
 * [Streamlit Documentation](https://docs.streamlit.io/)
 * [Code Institute Streamlit Lessons](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/d186ae95191f48e9a2151559c7e6f85d/fc2f9892cfa44eee9cc8bf585c21df88/4?activate_block_id=block-v1%3Acode_institute%2BCI_DA_ML%2B2021_Q4%2Btype%40vertical%2Bblock%407636b337caeb4035bd7b5568404802f6)
 * Information for the text content for the 'Context' section on the Project Summary page came from [Wikipedia](https://en.wikipedia.org/wiki/Powdery_mildew), [RHS](https://www.rhs.org.uk/disease/powdery-mildews), and the [Washington State University  Page on Cherry Powdery Mildew](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/). 
