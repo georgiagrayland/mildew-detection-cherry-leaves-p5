@@ -113,19 +113,35 @@ The last section of this page shows checkboxes where users can read the two busi
 
 ![Image Montage](assets/images/image-montage.png)
 
+---
+
 ### Mildew Detector Page
 
 - This page was built to meet Business Requirement 2.
   
+This page links to the ML model that has been trained to predict whether a leaf is healthy or infected with powdery midlew, based on a binary classification model.
 
+* The user is presented with an information box with a quick summary of the client interests.
+* The link to the dataset is also present, so users can go there to download sample data to insert into the Mildew Detector.
+* The user can either drag and drop, or click on the 'Browse files' button so upload images to the Mildew Detector.
+* Users may upload single or multiple image files at once. 
 
 ![Mildew Detector Page](assets/images/mildew-detector-page.png)
 
+* Once uploaded, an image name(s), file size and file type will show. 
+* The user can now click on the 'Make Prediction' button, which runs the model over the image(s) uploaded. 
 ![Image Upload in Detector](assets/images/detector-example.png)
 
+* The user will again see each image file name in a yellow box, and underneath, the prediction of whether it is healthy or infected with powdery mildew.
+* A probablility chart will show for each image uploaded, displaying 2 bars representing the probability of the outcome of the prediction. 
 ![Sample Single Leaf](assets/images/sample-leaf.png)
 ![Sample Leaf 2](assets/images/sample2.png)
+
+* A user can upload multiple image files at once to save time. In this instance, they will be shown all image file names, then can click 'Make Predictio'. The app will run over each image and display the results for each one individually, as seen above. 
 ![Multiple Upload example](assets/images/multiple-upload.png)
+
+* At the end of a prediction, there is an analysis report generated, which is available for the user to download.
+* This report displays the results of all image files uploaded in an individual instance. 
 ![Multiple Upload Report](assets/images/result-report.png)
 
 
@@ -139,7 +155,7 @@ This page is purely text, so there are no user actions to test/validate.
 ![Validation Section](assets/images/hypotheses-validation.png)
 
 
-
+---
 ### ML Performance Metrics Page
 
 - On this page, the user can see the dataset split metrics, as well as the performance metrics and evaluation of the model, its training history, and loss and accuracy.
@@ -152,11 +168,12 @@ Under this, the user can see a pie chart of the overall ratio of the train, test
 ![Dataset split Pie](assets/images/dataset-split.png)
 
 Further down, there are two graphs displaying the model training history. The user can see a graph representing the model training accuracy across the train and validation sets. The user can also view a graph respresentng the model loss over time. It can be ascertained through these two graphs that the model neither overfit nor underfit. and they follow normal trainig trajectories. 
-Finally, under the two graphs is an evaluation of the generaised performance on the test set. This displays a data frame showing a loss of 0.0204, and an accuracy of 0.9917 (99%).
+Finally, under the two graphs is an evaluation of the generaised performance on the test set. This displays a Data Frame showing a loss of 0.0204, and an accuracy of 0.9917 (99%).
 ![Model Training History](assets/images/model-training.png)
 ![Model Performance](assets/images/model-performance.png)
 
 ---
+
 ## Technologies Used
 
 ### Languages
