@@ -249,6 +249,9 @@ Finally, under the two graphs is an evaluation of the generalised performance on
 - [Streamlit](https://streamlit.io/) - UI host for the dashboard.
 - [Heroku](https://www.heroku.com/) - Used to deploy the project.
 
+## Future Features
+
+- The dataset split pie chart on the 'ML Performance Metrics' tab of the dashboard is currently static, coded from manual calculation of the split of the data into train/test/validation. In future versions of this project, this could be changed to be dynamically programmed to go into each folder asn calculate the number of files in train/test/validation, in order to reflect any changes to the dataset that may occur.
 
 ## Known/Unfixed Bugs
 
@@ -256,6 +259,7 @@ Finally, under the two graphs is an evaluation of the generalised performance on
 * Some files were added to the .slugignore file, in order to build the app in Heroku successfully and keep in line with file size restrictions.
 
 ---
+
 ## Deployment
 
 ### Heroku
@@ -270,11 +274,11 @@ The project was deployed to **Heroku** using the following steps:
 3. Select your repository name and click Search. Once it is found, click Connect.
 4. Select the branch you want to deploy, then click Deploy Branch.
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large to build the app, then add large files not required for the app to the .slugignore file. 
+6. If the slug size is too large to build the app, then add large files not required for the app to the .slugignore file.
 
 ---
 
-## Credits 
+## Credits
 
 Learning and assistance for this project came in two categories - **content and media**:
   
@@ -297,4 +301,4 @@ Learning and assistance for this project came in two categories - **content and 
 ## Acknowledgements
 
 * I would like to thank my mentor **Rohit Sharma**, for his time and expert insights provided throughout the duration of this project.  
-* **Neil McEwan**, for helping with intial project understanding, and versioning issues with packages. 
+* **Neil McEwen**, for helping with intial project understanding, and versioning issues with packages.
