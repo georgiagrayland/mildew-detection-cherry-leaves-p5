@@ -251,7 +251,7 @@ Finally, under the two graphs is an evaluation of the generalised performance on
 
 ## Future Features
 
-- The dataset split pie chart on the 'ML Performance Metrics' tab of the dashboard is currently static, coded from manual calculation of the split of the data into train/test/validation. In future versions of this project, this could be changed to be dynamically programmed to go into each folder asn calculate the number of files in train/test/validation, in order to reflect any changes to the dataset that may occur.
+- The dataset split pie chart on the 'ML Performance Metrics' tab of the dashboard is currently static, coded from manual calculation of the split of the data into train/test/validation. In future versions of this project, this could be changed to be dynamically programmed to go into each folder and calculate the number of files in train/test/validation, in order to reflect any changes to the dataset that may occur.
 
 ## Known/Unfixed Bugs
 
